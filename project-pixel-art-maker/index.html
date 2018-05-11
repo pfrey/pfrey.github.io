@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pixel Art Maker!</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="designs.js"></script>
+</head>
+<body>
+  <img src="nightsky.jpg" class="bg">
+
+  <div class="container">
+    <h1>Lab: Pixel Art Maker</h1>
+
+    <div class="main">
+      <h2>Choose Grid Size</h2>
+      <form id="sizePicker">
+        <div class="size">
+          Grid Height:
+          <input type="number" id="inputHeight" name="height" min="1" value="10">
+        </div>
+        <div class="size">
+          Grid Width:
+          <input type="number" id="inputWidth" name="width" min="1" value="10">
+        </div>
+
+        <h2>Pick A Color</h2>
+        <input type="color" id="colorPicker">
+          
+        <input type="submit" id="submitSize">
+      </form>
+
+      <table id="pixelCanvas"></table>
+    </div>
+  </div>
+
+  <script src="designs.js"></script>
+</body>
+</html>
