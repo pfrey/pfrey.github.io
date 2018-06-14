@@ -1,4 +1,9 @@
 'use strict';
+//TODO:
+// add modal or some sort of instruction area
+// explaining how to play (arrows, collisions, etc)
+
+
 // Enemies our player must avoid
 var Enemy = function(x, y, speed) {
   // Variables applied to each of our instances go here,
@@ -124,8 +129,10 @@ function winScreen() {
 
 // Get the modal and elements within
 const modal = document.getElementById('winModal');
+const welcomeModal = document.getElementById('welcomeModal');
 const modalText = document.getElementById('modalText');
 const playAgainButton = document.getElementById('playAgainButton');
+const letsGoButton = document.getElementById('letsGoButton');
 const span = document.getElementsByClassName("close")[0];
 
 // A user clicking either the X within the modal,
@@ -133,13 +140,20 @@ const span = document.getElementsByClassName("close")[0];
 // or anywhere outside the modal will close it
 span.onclick = function() {
   modal.style.display = "none";
+  welcomeModal.style.display = "none";
 }
 playAgainButton.onclick = function() {
   modal.style.display = "none";
   resetCharacter();
 }
+letsGoButton.onclick = function() {
+  welcomeModal.style.display = "none";
+}
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+  if (event.target == welcomeModal) {
+    welcomeModal.style.display = "none";
   }
 }

@@ -7,6 +7,16 @@
   <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
 </head>
 <body>
+  <div id="welcomeModal" class="welcomeModal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Welcome!</h2>
+      <p id="modalText">To play, use the arrow keys: &#8593, &#8595, &#8592, and &#8594 to move your character around the screen. <br> 
+      The goal is to make it to the water without running into any bugs!</p>
+      <p id="letsGoButton">Let's Go!</p>
+    </div>
+  </div>
+
   <div id="winModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -19,5 +29,8 @@
   <script src="js/resources.js"></script>
   <script src="js/app.js"></script>
   <script src="js/engine.js"></script>
+
+  <!-- Photo by Steve Bittinger on Unsplash -->
+  <img src="images/beach.jpg" class="bg">
 </body>
 </html>
