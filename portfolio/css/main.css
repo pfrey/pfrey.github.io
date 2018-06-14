@@ -46,8 +46,8 @@ a:hover { color: #02b3e4; }
 }
 
 .header-logo {
-  max-height: 100px;
-  max-width: 100px;
+  max-height: 150px;
+  max-width: 150px;
   display: flex;
   margin: auto 0;
 }
