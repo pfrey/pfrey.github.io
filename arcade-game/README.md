@@ -10,8 +10,8 @@
 
 This is a game of patience and timing - the object of the game is to safely get your character across the road to the water!
 
-![Welcome Screen](https://raw.githubusercontent.com/pfrey/arcade-game/master/images/welcome-screen.png)
-![Screenshot of Game](https://raw.githubusercontent.com/pfrey/arcade-game/master/images/game-screen-full.png)
+![Welcome Screen](https://raw.githubusercontent.com/pfrey/pfrey.github.io/master/arcade-game/images/welcome-screen.png)
+![Screenshot of Game](https://raw.githubusercontent.com/pfrey/pfrey.github.io/master/arcade-game/images/game-screen-full.png)
 
 ## Instructions
 
