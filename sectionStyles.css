@@ -1,0 +1,208 @@
+.nav {
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+}
+.sectionNav {
+  height: 50px;
+  background-color: lavender;
+ /* grid-column: 1/3;*/
+}
+.footer {
+  height: 450px;
+  background-color: lightgoldenrodyellow;
+}
+
+/* ads */
+.ad {
+  height: 250px;
+  width: 300px;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+}
+.tallAd {
+  height: 600px;
+  width: 300px;
+  background-color: lightgrey;
+}
+.billboardAd, .billboardAd2 {
+  height: 200px;
+  background-color: lightgrey;
+}
+.mobileBanner, .mobileBanner2 {
+  height: 50px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+/* widgets */
+.origami {
+  height: 300px;
+  width: 300px;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+}
+.jobs {
+  background-color: lightpink;
+  height: 450px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+.jobsHalf {
+  background-color: lightpink;
+  height: 250px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+/* content sections */
+.latestTop .latestMiddle, .latestBottom {
+  min-width: 300px;
+}
+
+.article, .gallery {
+  height: 215px;
+  background-color: lightblue;
+  margin-bottom: 10px;
+  min-width: 300px;
+}
+.top { 
+  height: 550px;
+  background-color: lightblue;
+  min-width: 300px;
+}
+
+/* sidebars */
+.leftAd {
+  /*grid-column: 1 / 2;*/
+  width: 300px;
+  justify-self: end;
+}
+.rightSidebar {
+  /*grid-column: 3 / 4;*/
+  width: 300px;
+}
+
+
+
+.nav { grid-area: nav; }
+.billboardAd { grid-area: billboardAd; }
+.billboardAd2 { grid-area: billboardAd2; }
+.mobileBanner { grid-area: mobileBanner; }
+.mobileBanner2 { grid-area: mobileBanner2; }
+.origami { grid-area: origami; }
+.jobsHalf { grid-area: jobsHalf; }
+.featuredTop { grid-area: featuredTop; }
+.latestTop { grid-area: latestTop; }
+.latestMiddle { grid-area: latestMiddle; }
+.latestBottom { grid-area: latestBottom; }
+.topRightAdSpot { grid-area: topRightAdSpot; }
+.bottomRightSidebar { grid-area: bottomRightSidebar; }
+.leftAd { grid-area: leftAd; }
+.footer { grid-area: footer; }
+    
+.container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas: 
+    "nav"
+    "mobileBanner"
+    "featuredTop"
+    "jobsHalf"
+    "latestTop"
+    "origami"
+    "latestMiddle"
+    "leftAd"
+    "latestBottom"
+    "mobileBanner2"
+    "footer"
+}
+
+
+
+.topRightAdSpot, .billboardAd, .billboardAd2, 
+.jobs, .leftAd .tallAd, .bottomRightSidebar {display: none;}
+.leftAd, .jobsHalf, .origami, .topRightSidebar { margin: 0 auto; }
+
+
+
+/* media queries */
+@media (max-width: 759px) {
+  body { background: bisque; }
+}
+
+@media (min-width: 760px) {
+  .sectionLatest { 
+    grid-area: sectionLatest;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 0 10px;
+    grid-template-areas: 
+      "latestTop ...."
+      "latestTop ...."
+      "latestMiddle ...."
+      "latestMiddle origami"
+      "latestMiddle ...."
+      "latestBottom leftAd"
+  }
+  
+  body { background: cadetblue; }
+  .container {
+    grid-template-columns: auto 300px;
+    grid-row: auto;
+    grid-template-areas: 
+      "nav nav"
+      "billboardAd billboardAd"
+      "featuredTop featuredTop"
+      "sectionLatest topRightAdSpot"
+      "sectionLatest bottomRightSidebar"
+      "sectionLatest ...."
+      "billboardAd2 billboardAd2"
+      "footer footer"
+  }
+
+
+
+  .billboardAd, .billboardAd2 { display: block; }
+  .topRightAdSpot, .bottomRightSidebar,
+  .jobs, .origami, .leftAd .tallAd { display: block; justify-self: center; }
+
+  .jobsHalf, .leftAd .ad,
+  .mobileBanner, .mobileBanner2 { display: none; }
+
+  .leftSidebar, .rightSidebar { margin: 0; }
+}
+
+@media (min-width: 1000px) {
+  .sectionLatest { 
+    grid-area: sectionLatest;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+      "origami latestTop"
+      "leftAd latestTop"
+      "..... latestMiddle"
+      "..... latestBottom"
+  }
+
+  body { background: seagreen; }
+  .container {
+    max-width: 1427px;
+    margin: auto;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+      "nav nav nav"
+      "billboardAd billboardAd billboardAd"
+      "featuredTop featuredTop topRightAdSpot"
+      "sectionLatest sectionLatest bottomRightSidebar"
+      "billboardAd2 billboardAd2 billboardAd2"
+      "footer footer footer"
+  }
+  .billboardAd, .billboardAd2 { display: block; }
+  .topRightAdSpot { display: block; }
+  .jobs { display: block; }
+  .jobsHalf { display: none; }
+  .mobileBanner, .mobileBanner2 { display: none; }
+  .leftSidebar, .rightSidebar { margin: 0; }
+}
+
