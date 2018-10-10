@@ -104,13 +104,14 @@ a:hover { color: #02b3e4; }
 }
 
 .container { 
-  display: flex; 
-  justify-content: space-between; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 25px;
   padding-bottom: 25px;
 }
 
 .featured-work {
-  width: 30%;
+
 }
 
 .featured-work img {
