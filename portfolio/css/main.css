@@ -73,6 +73,10 @@ a:hover { color: #02b3e4; }
   text-decoration: line-through; 
 }
 
+.header-inner h3 a {
+  font-weight: 200;
+}
+
 
 
 /*---------Hero---------*/
