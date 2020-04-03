@@ -10,88 +10,109 @@
 </head>
 
 <body>
-  <h1>Graphic Design Projects</h1>
+  <section>
+    <h1>Graphic Design Projects</h1>
+    
+    <section class="gallery-thumbnails">
+      <h2>Friday Night Lights Marketing Materials</h2>
+      <div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenPoster.jpg" itemprop="contentUrl" data-size="825x1275">
+            <img src="images/OpenPoster.jpg" itemprop="thumbnail" alt="Poster advertising Friday Night Lights event" />
+          </a>
+        </figure>
 
-  <h2>Friday Night Lights Marketing Materials</h2>
-  <div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="images/OpenPoster.jpg" itemprop="contentUrl" data-size="825x1275">
-        <img src="images/OpenPoster.jpg" itemprop="thumbnail" alt="Poster advertising Friday Night Lights event" />
-      </a>
-    </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenTheme.jpg" itemprop="contentUrl" data-size="1024x1024">
+            <img src="images/OpenTheme.jpg" itemprop="thumbnail" alt="Square image advertising St Patrick's Day theme" />
+          </a>
+        </figure>
 
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="images/OpenTheme.jpg" itemprop="contentUrl" data-size="1024x1024">
-        <img src="images/OpenTheme.jpg" itemprop="thumbnail" alt="Square image advertising St Patrick's Day theme" />
-      </a>
-    </figure>
-
-    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-      <a href="images/OpenWhy.png" itemprop="contentUrl" data-size="1024x1024">
-        <img src="images/OpenWhy.png" itemprop="thumbnail" alt="Square image with a story of why they sign up for the open" />
-      </a>
-    </figure>
-  </div>
-
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element, as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
-      <!-- don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenWhy.png" itemprop="contentUrl" data-size="1024x1024">
+            <img src="images/OpenWhy.png" itemprop="thumbnail" alt="Square image with a story of why they sign up for the open" />
+          </a>
+        </figure>
       </div>
+    </section>
+    
+    <section class="gallery-thumbnails">
+      <h2>Rest Day Graphics</h2>
+      <div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/rdmt-icon.png" itemprop="contentUrl" data-size="1200x1500">
+            <img src="images/rdmt-icon.png" itemprop="thumbnail" alt="Icon for Rest Day Massage Therapy" />
+          </a>
+        </figure>
 
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-        <div class="pswp__top-bar">
-          <!--  Controls are self-explanatory. Order can be changed. -->
-          <div class="pswp__counter"></div>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/rdmt-logo.png" itemprop="contentUrl" data-size="1200x1500">
+            <img src="images/rdmt-logo.png" itemprop="thumbnail" alt="Logo for Rest Day Massage Therapy" />
+          </a>
+        </figure>
+      </div>
+    </section>
 
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 
-          <button class="pswp__button pswp__button--share" title="Share"></button>
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <!-- Background of PhotoSwipe. 
+           It's a separate element, as animating opacity is faster than rgba(). -->
+      <div class="pswp__bg"></div>
 
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      <!-- Slides wrapper with overflow:hidden. -->
+      <div class="pswp__scroll-wrap">
 
-          <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+          <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+          <div class="pswp__top-bar">
+            <!--  Controls are self-explanatory. Order can be changed. -->
+            <div class="pswp__counter"></div>
+
+            <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+            <button class="pswp__button pswp__button--share" title="Share"></button>
+
+            <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+            <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+            <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+            <!-- element will get class pswp__preloader--active when preloader is running -->
+            <div class="pswp__preloader">
+              <div class="pswp__preloader__icn">
+                <div class="pswp__preloader__cut">
+                  <div class="pswp__preloader__donut"></div>
+                </div>
               </div>
             </div>
           </div>
+
+          <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+            <div class="pswp__share-tooltip"></div> 
+          </div>
+
+          <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+
+          <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+
+          <div class="pswp__caption">
+            <div class="pswp__caption__center"></div>
+          </div>
+
         </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div> 
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- load scripts -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js'></script>
