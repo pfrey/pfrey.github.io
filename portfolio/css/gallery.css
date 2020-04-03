@@ -23,7 +23,7 @@ section {
   margin: 0 auto;
 }
 
-.gallery-thumbnails { width: 80%; }
+.gallery-thumbnails { width: 100%; }
 
 .photo-gallery {
   width: 100%;
