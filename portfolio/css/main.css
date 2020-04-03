@@ -54,7 +54,7 @@ a:hover { color: #02b3e4; }
 
 .header-inner { 
   text-align: right;
-  height: 100px;
+  height: 120px;
 }
 
 .header-inner h1 {
@@ -75,6 +75,7 @@ a:hover { color: #02b3e4; }
 
 .header-inner h3 a {
   font-weight: 200;
+  line-height: 1.5em;
 }
 
 
