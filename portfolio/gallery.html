@@ -2,7 +2,7 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Gallery</title>
+  <title>Project Galleries</title>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
   <link rel="stylesheet" href="css/gallery.css">
@@ -11,27 +11,30 @@
 
 <body>
   <section>
-    <h1>Friday Night Lights Project:</h1>
+    <h1>Graphic Design Projects:</h1>
+    
+    <section class="gallery-thumbnails">
+      <h2>Friday Night Lights project:</h2>
+      <div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenPoster.jpg" itemprop="contentUrl" data-size="825x1275">
+            <img src="images/OpenPoster.jpg" itemprop="thumbnail" alt="Poster advertising Friday Night Lights event" />
+          </a>
+        </figure>
 
-    <div class="photo-gallery" itemscope itemtype="http://schema.org/ImageGallery">
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="images/OpenPoster.jpg" itemprop="contentUrl" data-size="825x1275">
-          <img src="images/OpenPoster.jpg" itemprop="thumbnail" alt="Poster advertising Friday Night Lights event" />
-        </a>
-      </figure>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenTheme.jpg" itemprop="contentUrl" data-size="1024x1024">
+            <img src="images/OpenTheme.jpg" itemprop="thumbnail" alt="Square image advertising St Patrick's Day theme" />
+          </a>
+        </figure>
 
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="images/OpenTheme.jpg" itemprop="contentUrl" data-size="1024x1024">
-          <img src="images/OpenTheme.jpg" itemprop="thumbnail" alt="Square image advertising St Patrick's Day theme" />
-        </a>
-      </figure>
-
-      <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="images/OpenWhy.png" itemprop="contentUrl" data-size="1024x1024">
-          <img src="images/OpenWhy.png" itemprop="thumbnail" alt="Square image with a story of why they sign up for the open" />
-        </a>
-      </figure>
-    </div>
+        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+          <a href="images/OpenWhy.png" itemprop="contentUrl" data-size="1024x1024">
+            <img src="images/OpenWhy.png" itemprop="thumbnail" alt="Square image with a story of why they sign up for the open" />
+          </a>
+        </figure>
+      </div>
+    </section>
 
 
     <!-- Root element of PhotoSwipe. Must have class pswp. -->
