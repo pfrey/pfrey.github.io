@@ -4,7 +4,11 @@ body {
   color: #424242;
 }
 
-h1 { font-size: 3em; }
+h1 { 
+  font-size: 3em; 
+  background-color: #e8e8e8;
+  padding: 10px 20px 30px;
+}
 h2 { font-size: 2em; }
 
 section {
@@ -17,6 +21,9 @@ section {
 .photo-gallery {
   width: 100%;
   float: left;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 .photo-gallery img {
   width: 100%;
