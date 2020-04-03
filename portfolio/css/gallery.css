@@ -39,24 +39,23 @@ a:hover { color: #02b3e4; }
 
 .header-inner h1 {
   font-weight: 100;
-  font-size: 3.5em;
+  font-size: 4em;
   color: #2d3c49;
 }
 
 .header-inner h2 { 
   font-weight: 200;
-  font-size: 2em;
+  font-size: 2.5em;
   color: #7d97ad; 
+  margin: 0;
 }
 
-.header-inner h3 span { 
-  text-decoration: line-through; 
-}
-
-.header-inner h3 a {
+.header-inner h3 { 
+  font-size: 1.5em; 
   font-weight: 200;
   line-height: 1.5em;
 }
+
 @media screen and (max-width: 699px) {
   .header-logo { 
     max-width: 60px; 
