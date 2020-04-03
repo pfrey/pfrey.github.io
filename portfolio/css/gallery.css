@@ -2,12 +2,12 @@ body {
   font-family: Roboto;
   font-size: 12px;
   color: #424242;
+  background-color: lightgray;
 }
 
 section {
   width: 50%;
   margin: 0 auto;
-  background-color: grey;
 }
 
 .photo-gallery {
