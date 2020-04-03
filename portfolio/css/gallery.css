@@ -5,11 +5,18 @@ body {
 }
 
 h1 { 
-  font-size: 3em; 
+  font-weight: 100;
+  font-size: 5em;
+  color: #2d3c49; 
   border-bottom: 3px solid #606060;
   padding: 10px 0;
 }
-h2 { font-size: 2em; }
+
+h2 { 
+  font-weight: 200;
+  font-size: 1.5em;
+  color: #7d97ad;
+}
 
 section {
   width: 60%;
