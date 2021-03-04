@@ -168,7 +168,7 @@ a:hover { color: #02b3e4; }
 
 @media screen and (min-width: 700px) {
   .header { 
-    height: 18%; 
+    height: 40%; 
   }
 }
 
