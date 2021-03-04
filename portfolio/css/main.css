@@ -181,9 +181,6 @@ a:hover { color: #02b3e4; }
     margin-left: auto;
     margin-right: auto;
   }
-  .header { 
-    height: 40%; 
-  }
   .container { 
     grid-template-columns: 1fr 1fr 1fr; 
   }
