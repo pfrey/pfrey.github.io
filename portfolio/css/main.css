@@ -172,7 +172,7 @@ a:hover { color: #02b3e4; }
 
 @media screen and (min-width: 700px) {
   .header { 
-    height: 23%; 
+    height: 21%; 
   }
   .container { 
     grid-template-columns: 1fr 1fr; 
