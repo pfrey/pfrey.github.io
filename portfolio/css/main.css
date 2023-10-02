@@ -78,6 +78,10 @@ a:hover { color: #02b3e4; }
   line-height: 1.5em;
 }
 
+.header-inner .header-links {
+  display: inline-block;
+}
+
 
 
 /*---------Hero---------*/
@@ -168,7 +172,7 @@ a:hover { color: #02b3e4; }
 
 @media screen and (min-width: 700px) {
   .header { 
-    height: 18%; 
+    height: 23%; 
   }
   .container { 
     grid-template-columns: 1fr 1fr; 
