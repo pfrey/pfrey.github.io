@@ -39,3 +39,6 @@ h1 {
   text-align: left;
   width: 340px;
 }
+.sidebar img {
+  width: -webkit-fill-available;
+}
