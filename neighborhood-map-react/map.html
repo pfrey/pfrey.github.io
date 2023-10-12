@@ -112,6 +112,35 @@
         markers[i].setMap(null);
       }
     }
+    var AppViewModel = function() {
+    var self = this;
+  
+    this.searchText = ko.observable('');
+    this.locationsList = ko.observableArray();
+  
+    map = new google.maps.Map(document.getElementById('mapDiv'), {
+      center: { lat: 59.942803, lng: 30.324841 },
+      zoom: 14
+    });
+  
+    initData.forEach(function(datum) {
+      var location = new Location(datum);
+      self.locationsList.push(location);
+    });
+  
+    this.myLocationsFilter = ko.computed(function() {
+      return this.locationsList().filter(function(location) {
+        var isMatched = location.searchTitle.indexOf(this.searchText().toLowerCase()) !== -1;
+        location.marker.setVisible(isMatched);
+  
+        return isMatched;
+      }, this);
+    }, this);
+  };
+  
+  function init() {
+    ko.applyBindings(new AppViewModel());
+  }
    </script>
 
   <!--Load the GoogleMaps JS API ASYNCHRONOUSLY-->
