@@ -7,31 +7,26 @@
   font-size: 8rem;
   display: inline-block;
   opacity: 0;
-  animation: pixelIn 0.5s forwards;
-      animation: pixelFadeIn 2s steps(10) forwards;
-      filter: blur(10px);
+  animation: pixelFadeIn 0.5s steps(12) forwards;
+  filter: blur(10px);
 }
 
-    @keyframes pixelFadeIn {
-      0% {
-        opacity: 0;
-        filter: blur(10px);
-      }
-      100% {
-        opacity: 1;
-        filter: blur(0);
-      }
-    }
-
-@keyframes pixelIn {
-  0% { opacity: 0; transform: scale(0.8); }
-  100% { opacity: 1; transform: scale(1); }
+@keyframes pixelFadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
 }
 
 .code {
   font-family: 'Courier New', monospace;
+  line-height: 8rem;
   display: inline-block;
-  border-right: 2px solid #000;
+  border-right: 2px solid #000 !important;
   white-space: nowrap;
   overflow: hidden;
 }
