@@ -1,7 +1,9 @@
+logo {
+  font-size: 10em;
+  color: #0F0F0F;
+}
 .pixel {
   font-family: 'Press Start 2P', monospace;
-  font-size: 52px;
-  color: #ffffff;
   display: inline-block;
   opacity: 0;
   animation: pixelIn 0.5s forwards;
@@ -14,23 +16,19 @@
 
 .code {
   font-family: 'Courier New', monospace;
-  font-size: 82px;
-  color: #ffffff;
   display: inline-block;
-  border-right: 2px solid #fff;
+  border-right: 2px solid #000;
   white-space: nowrap;
   overflow: hidden;
 }
 
 .swatches {
   font-family: Arial, sans-serif;
-  background: #fff;
-  padding: 20px;
+  background: #C0CEFF;
+  padding: 40px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
-  background-color: #C0CEFF;
-  padding: 40px;
 }
 .swatch {
   border: 1px solid #ccc;
