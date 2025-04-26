@@ -1,3 +1,6 @@
+body {
+  background: url("/shared-assets/images/examples/lizard.png");
+}
 .logo {
   font-size: 10em;
   color: #0F0F0F;
