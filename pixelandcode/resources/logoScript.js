@@ -1,24 +1,22 @@
-<script>
-  const codeText = "code";
-  const codeEl = document.querySelector(".code");
-  let index = 0;
+const codeText = "code";
+const codeEl = document.querySelector(".code");
+let index = 0;
 
-  function typeCode() {
-    if (index < codeText.length) {
-      codeEl.textContent += codeText.charAt(index);
-      index++;
-      setTimeout(typeCode, 150); // speed of typing
-    } else {
-      codeEl.style.borderRight = "none";
-    }
+function typeCode() {
+  if (index < codeText.length) {
+    codeEl.textContent += codeText.charAt(index);
+    index++;
+    setTimeout(typeCode, 150); // speed of typing
+  } else {
+    codeEl.style.borderRight = "none";
   }
+}
 
-  // Start animation
-  window.onload = () => {
-    // First reveal PIXEL
-    const pixel = document.querySelector(".pixel");
-    pixel.style.animationDelay = "0.5s";
-    // Then type in code
-    setTimeout(typeCode, 1000);
-  };
-</script>
+// Start animation
+window.onload = () => {
+  // First reveal PIXEL
+  const pixel = document.querySelector(".pixel");
+  pixel.style.animationDelay = "0.5s";
+  // Then type in code
+  setTimeout(typeCode, 1000);
+};
