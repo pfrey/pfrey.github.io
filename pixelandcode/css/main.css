@@ -1,0 +1,49 @@
+.pixel {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 32px;
+  color: #00ffcc;
+  display: inline-block;
+  opacity: 0;
+  animation: pixelIn 0.5s forwards;
+}
+
+@keyframes pixelIn {
+  0% { opacity: 0; transform: scale(0.8); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+.code {
+  font-family: 'Courier New', monospace;
+  font-size: 32px;
+  color: #ffffff;
+  display: inline-block;
+  border-right: 2px solid #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.swatches {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  background-color: #C0CEFF;
+  padding: 40px;
+}
+.swatch {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.color {
+  height: 100px;
+}
+.label {
+  padding: 10px;
+  background: #fafafa;
+}
