@@ -1,6 +1,6 @@
 .pixel {
   font-family: 'Press Start 2P', monospace;
-  font-size: 32px;
+  font-size: 52px;
   color: #ffffff;
   display: inline-block;
   opacity: 0;
@@ -14,7 +14,7 @@
 
 .code {
   font-family: 'Courier New', monospace;
-  font-size: 32px;
+  font-size: 82px;
   color: #ffffff;
   display: inline-block;
   border-right: 2px solid #fff;
