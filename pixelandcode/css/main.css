@@ -4,6 +4,7 @@
 }
 .pixel {
   font-family: 'Press Start 2P', monospace;
+  font-size: 8em;
   display: inline-block;
   opacity: 0;
   animation: pixelIn 0.5s forwards;
