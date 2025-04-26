@@ -1,4 +1,4 @@
-const codeText = "\/code";
+const codeText = "/code";
 const codeEl = document.querySelector(".code");
 let index = 0;
 
