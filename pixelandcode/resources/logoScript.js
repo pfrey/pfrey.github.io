@@ -20,3 +20,7 @@ window.onload = () => {
   // Then type in code
   setTimeout(typeCode, 1000);
 };
+
+setTimeout(() => {
+  typeCode(); // start typing after 1000ms (1 second)
+}, 1000);
