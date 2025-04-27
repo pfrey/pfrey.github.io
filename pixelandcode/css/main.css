@@ -30,6 +30,9 @@ h3 {
 }
 section {
   margin-bottom: 3rem;
+  background-color: #C0CEFF;
+  padding: 10px;
+  border-radius: 15px;
 }
 section > h3,
 section > p,
