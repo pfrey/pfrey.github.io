@@ -1,5 +1,6 @@
 #homepage {
   background-image: url("../images/grid-bg.jpg");
+  background-size: 45%;
 }
 .logo {
   font-size: 10em;
