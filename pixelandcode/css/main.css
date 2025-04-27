@@ -38,6 +38,8 @@ section > p,
 section > img {
   margin-left: 10px;
 }
+.pixel-font { font-family: 'Press Start 2P', monospace; }
+.monospace-font { font-family: 'Courier New', monospace; }
 .logo {
   font-size: 10em;
   color: #0F0F0F;
