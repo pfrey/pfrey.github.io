@@ -1,6 +1,6 @@
 #homepage {
   background-image: url("../images/grid-bg.jpg");
-  background-size: 45%;
+  background-size: 30%;
 }
 body {
   font-family: 'Fira Code', Courier, monospace;
@@ -64,7 +64,7 @@ section > img {
   font-family: 'Courier New', monospace;
   line-height: 8rem;
   display: inline-block;
-  border-right: 2px solid #000 !important;
+  /*border-right: 2px solid #000 !important;*/
   white-space: nowrap;
   overflow: hidden;
 }
