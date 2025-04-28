@@ -1,6 +1,6 @@
 .swatches {
   font-family: Arial, sans-serif;
-  padding: 40px;
+  padding: 0 40px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
