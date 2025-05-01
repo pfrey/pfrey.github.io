@@ -1,10 +1,8 @@
 /***** GRID SETUP *****/
 .grid {
   display: grid;
-  grid-template-columns: 150px auto 150px;
   grid-gap: 1em;
-  /* auto minimum width, causing problem */
-  grid-template-columns: 150px 1fr 150px;
+  grid-template-columns: 150px minmax(0, 1fr) 150px;
 }
 
 header, footer {
