@@ -17,17 +17,10 @@ header, footer {
 }
 
 /* Demo Specific Styles */
-body {
-  margin: 0 auto;
-  max-width: 56em;
-  padding: 1em 0;
-}
-
 header,
 aside,
 main,
 footer {
-  background: #eaeaea;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -42,7 +35,9 @@ footer {
 body {
   font-family: 'Fira Code', Courier, monospace;
   background-color: #f7f7f7;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
   color: #1B1B1F;
   line-height: 1.6;
 }
@@ -64,7 +59,7 @@ h2 {
 h3 {
   font-size: 1rem;
 }
-section {
+/*section {
   margin-bottom: 3rem;
   padding: 10px;
   border-radius: 15px;
@@ -73,7 +68,7 @@ section > h3,
 section > p,
 section > img {
   margin-left: 10px;
-}
+}*/
 
 .pixel-font { 
   font-family: 'Press Start 2P', monospace;
