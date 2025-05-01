@@ -19,7 +19,6 @@ header, footer {
 /* Demo Specific Styles */
 header,
 aside,
-main,
 footer {
   display: flex;
   align-items: center;
