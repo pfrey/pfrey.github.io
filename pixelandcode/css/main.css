@@ -60,16 +60,15 @@ h2 {
 h3 {
   font-size: 1rem;
 }
-/*section {
-  margin-bottom: 3rem;
-  padding: 10px;
-  border-radius: 15px;
+section {
+  display: flex;
+  flex-flow: column;
 }
 section > h3,
 section > p,
 section > img {
   margin-left: 10px;
-}*/
+}
 
 .pixel-font { 
   font-family: 'Press Start 2P', monospace;
