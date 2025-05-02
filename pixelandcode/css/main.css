@@ -24,7 +24,7 @@ footer {
   flex-flow: wrap;
   align-items: center;
   justify-content: center;
-  height: 25vh;
+  padding-top: 2vh;
 }
 /***** -end- GRID SETUP *****/
 
