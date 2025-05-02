@@ -128,6 +128,18 @@ section > img {
   @media screen and (max-width: 1024px) { font-size: 2em; }
   @media screen and (max-width: 425px) { font-size: 1.5em; }
 }
+  
+@keyframes pixelFadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
 .code {
   font-family: 'Courier New', monospace;
   font-size: 10rem;
@@ -146,17 +158,6 @@ section > img {
   @media screen and (max-width: 425px) {
     font-size: 4em;
     line-height: 3rem;
-  }
-  
-  @keyframes pixelFadeIn {
-    0% {
-      opacity: 0;
-      filter: blur(10px);
-    }
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
   }
 }
 /***** -end- HOMEPAGE ANIMATED LOGO *****/
