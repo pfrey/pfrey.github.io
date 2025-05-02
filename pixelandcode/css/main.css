@@ -44,7 +44,7 @@ h1, h2, h3 {
   margin-top: 2rem;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -138,18 +138,18 @@ section > img {
 .code {
   font-family: 'Courier New', monospace;
   font-size: 10rem;
-  line-height: 8rem;
+  line-height: 9rem;
   @media screen and (max-width: 1440px) {
     font-size: 8rem;
-    line-height: 6rem;
+    line-height: 7rem;
   }
   @media screen and (max-width: 1024px) {
     font-size: 6em;
-    line-height: 4rem;
+    line-height: 5rem;
   }
   @media screen and (max-width: 425px) {
     font-size: 4em;
-    line-height: 2rem;
+    line-height: 3rem;
   }
   display: inline-block;
   white-space: nowrap;
