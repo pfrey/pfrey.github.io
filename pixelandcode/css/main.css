@@ -65,6 +65,7 @@ section {
   display: flex;
   flex-flow: column;
 }
+inner-section { display: flex; }
 section > h3,
 section > p,
 section > img {
