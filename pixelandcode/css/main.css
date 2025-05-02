@@ -65,7 +65,10 @@ section {
   display: flex;
   flex-flow: column;
 }
-inner-section { display: flex; }
+inner-section { 
+  display: flex; 
+  column-gap: 3rem;
+}
 section > h3,
 section > p,
 section > img {
