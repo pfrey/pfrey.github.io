@@ -21,7 +21,7 @@ window.onload = () => {
   setTimeout(typeCode, 1000);
   // Reveal subheading, if available
   const guide = document.querySelector(".guide");
-  guide.style.animationDelay = "1s";
+  guide.style.animationDelay = "2s";
 };
 
 setTimeout(() => {
