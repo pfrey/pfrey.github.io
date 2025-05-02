@@ -44,7 +44,7 @@ h1, h2, h3 {
   margin-top: 2rem;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -65,6 +65,7 @@ img {
 section {
   display: flex;
   flex-flow: column;
+  padding: 0 2rem;
 }
 inner-section { 
   display: flex; 
@@ -74,6 +75,7 @@ section > h3,
 section > p,
 section > img {
   margin-left: 10px;
+  margin-top: 0;
 }
 
 .pixel-font { 
