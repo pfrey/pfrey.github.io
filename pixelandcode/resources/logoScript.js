@@ -1,9 +1,5 @@
 const codeText = "/code";
-const bGuideText = "brandguide";
-const sGuideText = "styleguide";
 const codeEl = document.querySelector(".code");
-const bGuideEl = document.querySelector(".brandguide-logo");
-const sGuideEl = document.querySelector(".styleguide-logo");
 let index = 0;
 
 function typeCode() {
@@ -23,6 +19,11 @@ window.onload = () => {
   pixel.style.animationDelay = "0.5s";
   // Then type in code
   setTimeout(typeCode, 1000);
+  // Relveal second half, if available
+  const bglogo = document.querySelector(".brandguide-logo");
+  bglogo.style.animationDelay = "0.5s";
+  const sglogo = document.querySelector(".styleuide-logo");
+  sglogo.style.animationDelay = "0.5s";
 };
 
 setTimeout(() => {
