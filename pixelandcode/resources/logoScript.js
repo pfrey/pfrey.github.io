@@ -21,9 +21,9 @@ window.onload = () => {
   setTimeout(typeCode, 1000);
   // Relveal second half, if available
   const bglogo = document.querySelector(".brandguide-logo");
-  bglogo.style.animationDelay = "0.5s";
+  bglogo.style.animationDelay = "2s";
   const sglogo = document.querySelector(".styleuide-logo");
-  sglogo.style.animationDelay = "0.5s";
+  sglogo.style.animationDelay = "1s";
 };
 
 setTimeout(() => {
