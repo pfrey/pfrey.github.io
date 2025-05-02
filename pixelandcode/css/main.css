@@ -119,7 +119,7 @@ section > img {
 }
 .brandguide-logo {
   font-family: 'Press Start 2P', monospace;
-  font-size: 8rem;
+  font-size: 4rem;
   display: inline-block;
   opacity: 0;
   animation: pixelFadeIn 0.5s steps(12) forwards;
