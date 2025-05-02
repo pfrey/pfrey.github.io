@@ -19,7 +19,7 @@ window.onload = () => {
   pixel.style.animationDelay = "0.5s";
   // Then type in code
   setTimeout(typeCode, 1000);
-  // Relveal subheading, if available
+  // Reveal subheading, if available
   const guide = document.querySelector(".guide");
   guide.style.animationDelay = "1s";
 };
