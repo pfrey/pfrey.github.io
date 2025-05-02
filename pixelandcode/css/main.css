@@ -117,7 +117,7 @@ section > img {
   @media screen and (max-width: 1024px) { font-size: 4em; }
   @media screen and (max-width: 425px) { font-size: 2em; }
 }
-.brandguide-logo {
+.guide {
   font-family: 'Press Start 2P', monospace;
   font-size: 4rem;
   display: inline-block;
