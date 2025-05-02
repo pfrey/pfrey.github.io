@@ -103,7 +103,7 @@ section > img {
 
 
 /***** HOMEPAGE ANIMATED LOGO *****/
-.logo {
+.text-logo {
   color: #0F0F0F;
 }
 .pixel {
@@ -116,6 +116,14 @@ section > img {
   @media screen and (max-width: 1440px) { font-size: 6rem; }
   @media screen and (max-width: 1024px) { font-size: 4em; }
   @media screen and (max-width: 425px) { font-size: 2em; }
+}
+.brandguide-logo {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 8rem;
+  display: inline-block;
+  opacity: 0;
+  animation: pixelFadeIn 0.5s steps(12) forwards;
+  filter: blur(10px);
 }
 
 @keyframes pixelFadeIn {
