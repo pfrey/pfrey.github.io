@@ -70,12 +70,18 @@ inner-section {
   display: flex; 
   column-gap: 3rem;
 }
+#homepage inner-section { column-gap: 1rem; }
+
 section > h3,
 section > p,
 section > img {
   margin-left: 10px;
   margin-bottom: 5px;
 }
+
+.middle-align { align-items: anchor-center; }
+.middle-align > h2,
+.middle-align > h3 { margin: 13px; }
 
 .pixel-font { 
   font-family: 'Press Start 2P', monospace;
