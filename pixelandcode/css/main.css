@@ -124,23 +124,17 @@ section > img {
   opacity: 0;
   animation: pixelFadeIn 0.5s steps(12) forwards;
   filter: blur(10px);
+  @media screen and (max-width: 1440px) { font-size: 3rem; }
+  @media screen and (max-width: 1024px) { font-size: 2em; }
+  @media screen and (max-width: 425px) { font-size: 1.5em; }
 }
-
-@keyframes pixelFadeIn {
-  0% {
-    opacity: 0;
-    filter: blur(10px);
-  }
-  100% {
-    opacity: 1;
-    filter: blur(0);
-  }
-}
-
 .code {
   font-family: 'Courier New', monospace;
   font-size: 10rem;
   line-height: 9rem;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
   @media screen and (max-width: 1440px) {
     font-size: 8rem;
     line-height: 7rem;
@@ -153,8 +147,16 @@ section > img {
     font-size: 4em;
     line-height: 3rem;
   }
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
+  
+  @keyframes pixelFadeIn {
+    0% {
+      opacity: 0;
+      filter: blur(10px);
+    }
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+  }
 }
 /***** -end- HOMEPAGE ANIMATED LOGO *****/
