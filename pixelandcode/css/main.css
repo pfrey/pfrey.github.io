@@ -118,13 +118,13 @@ section > img {
   font-family: 'Press Start 2P', monospace;
   font-size: 8rem;
   @media screen and (max-width: 1440px) {
-    font-size: 6rem;
+    font-size: 8rem;
   }
   @media screen and (max-width: 1024px) {
-    font-size: 4em;
+    font-size: 7em;
   }
   @media screen and (max-width: 425px) {
-    font-size: 2em;
+    font-size: 6em;
   }
   display: inline-block;
   opacity: 0;
