@@ -78,19 +78,39 @@ section > img {
 .pixel-font { 
   font-family: 'Press Start 2P', monospace;
   font-size: 0.8rem;
+  @media screen and (max-width: 600px) {
+    font-size: 0.5rem;
+  }
+  
+  @media screen and (max-width: 400px) {
+    font-size: 0.2rem;
+  }
 }
 .monospace-font {
   font-family: 'Courier New', monospace;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
+  @media screen and (max-width: 600px) {
+    font-size: 1.2rem;
+  }
+  
+  @media screen and (max-width: 400px) {
+    font-size: 1rem;
+  }
 }
 
 .logo {
-  font-size: 10em;
   color: #0F0F0F;
 }
 .pixel {
   font-family: 'Press Start 2P', monospace;
   font-size: 8rem;
+  @media screen and (max-width: 600px) {
+    font-size: 6em;
+  }
+  
+  @media screen and (max-width: 400px) {
+    font-size: 4em;
+  }
   display: inline-block;
   opacity: 0;
   animation: pixelFadeIn 0.5s steps(12) forwards;
@@ -110,9 +130,16 @@ section > img {
 
 .code {
   font-family: 'Courier New', monospace;
+  font-size: 10rem;
+  @media screen and (max-width: 600px) {
+    font-size: 8em;
+  }
+  
+  @media screen and (max-width: 400px) {
+    font-size: 4em;
+  }
   line-height: 8rem;
   display: inline-block;
-  /*border-right: 2px solid #000 !important;*/
   white-space: nowrap;
   overflow: hidden;
 }
