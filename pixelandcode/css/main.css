@@ -47,6 +47,7 @@ h1 {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 2rem;
+  @media screen and (max-width: 425px) { font-size: 2rem;}
 }
 h2 {
   font-size: 1.5rem;
@@ -78,16 +79,15 @@ section > img {
   margin-left: 10px;
   margin-bottom: 5px;
 }
-
-/***** TYPOGRAPHY *****/
 .middle-align { align-items: anchor-center; }
 .middle-align > h2,
 .middle-align > h3 { margin: 13px; }
 
+/***** TYPOGRAPHY *****/
 .pixel-font { 
   font-family: 'Press Start 2P', monospace;
-  vertical-align: middle;
   font-size: 1rem;
+  vertical-align: middle;
   @media screen and (max-width: 1440px) { font-size: 0.8rem; }
   @media screen and (max-width: 1024px) { font-size: 0.7rem; }
   @media screen and (max-width: 425px) { font-size: 0.6rem;}
@@ -109,13 +109,13 @@ section > img {
 .pixel {
   font-family: 'Press Start 2P', monospace;
   font-size: 8rem;
-  @media screen and (max-width: 1440px) { font-size: 6rem; }
-  @media screen and (max-width: 1024px) { font-size: 4em; }
-  @media screen and (max-width: 425px) { font-size: 2em; }
   display: inline-block;
   opacity: 0;
   animation: pixelFadeIn 0.5s steps(12) forwards;
   filter: blur(10px);
+  @media screen and (max-width: 1440px) { font-size: 6rem; }
+  @media screen and (max-width: 1024px) { font-size: 4em; }
+  @media screen and (max-width: 425px) { font-size: 2em; }
 }
 
 @keyframes pixelFadeIn {
