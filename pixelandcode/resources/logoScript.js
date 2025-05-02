@@ -19,11 +19,9 @@ window.onload = () => {
   pixel.style.animationDelay = "0.5s";
   // Then type in code
   setTimeout(typeCode, 1000);
-  // Relveal second half, if available
-  const bglogo = document.querySelector(".brandguide-logo");
-  bglogo.style.animationDelay = "2s";
-  const sglogo = document.querySelector(".styleuide-logo");
-  sglogo.style.animationDelay = "1s";
+  // Relveal subheading, if available
+  const guide = document.querySelector(".guide");
+  guide.style.animationDelay = "1s";
 };
 
 setTimeout(() => {
