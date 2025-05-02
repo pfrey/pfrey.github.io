@@ -1,5 +1,9 @@
 const codeText = "/code";
+const bGuideText = "brandguide";
+const sGuideText = "styleguide";
 const codeEl = document.querySelector(".code");
+const bGuideEl = document.querySelector(".brandguide-logo");
+const sGuideEl = document.querySelector(".styleguide-logo");
 let index = 0;
 
 function typeCode() {
