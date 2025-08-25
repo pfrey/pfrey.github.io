@@ -197,7 +197,7 @@ section > img {
 
 .nav-link {
     text-decoration: none;
-    color: #FFB6B9;
+    color: #0F0F0F;
     font-weight: 500;
     font-size: 16px;
     padding: 10px 0;
@@ -213,13 +213,13 @@ section > img {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(to right, #7E8EF1, #FFB6B9);
+    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
     transition: width 0.3s ease;
     border-radius: 3px;
 }
 
 .nav-link:hover {
-    color: #FF5F6D;
+    color: #FFB6B9;
 }
 
 .nav-link:hover::before {
@@ -227,7 +227,7 @@ section > img {
 }
 
 .nav-link.active {
-    color: #7E8EF1;
+    color: #FF5F6D;
 }
 
 .nav-link.active::before {
@@ -254,7 +254,7 @@ section > img {
     bottom: -2px;
     height: 3px;
     border-radius: 3px;
-    background: linear-gradient(to right, #7E8EF1, #FFB6B9);
+    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
     transition: all 0.3s ease;
 }
 
