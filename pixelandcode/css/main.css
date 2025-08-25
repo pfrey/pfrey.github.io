@@ -176,132 +176,133 @@ section > img {
 /***** NAVIGATION *****/
 
 .nav-container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .nav-menu {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .nav-item {
-    margin-left: 30px;
-    position: relative;
+  margin-left: 30px;
+  position: relative;
 }
 
 .nav-link {
-    text-decoration: none;
-    color: #0F0F0F;
-    font-weight: 500;
-    font-size: 16px;
-    padding: 10px 0;
-    display: inline-block;
-    position: relative;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: #0F0F0F;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 10px 0;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s ease;
 }
 
 .nav-link::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
-    transition: width 0.3s ease;
-    border-radius: 3px;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, #7E8EF1, #C0CEFF);
+  transition: width 0.3s ease;
+  border-radius: 3px;
 }
 
 .nav-link:hover {
-    color: #FFB6B9;
+  color: #FF5F6D;
 }
 
 .nav-link:hover::before {
-    width: 100%;
+  width: 100%;
 }
 
 .nav-link.active {
-    color: #FF5F6D;
+  color: #FF5F6D;
+  color: #7E8EF1;
 }
 
 .nav-link.active::before {
-    width: 100%;
+  width: 100%;
 }
 
 .menu-toggle {
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #333;
-    margin: 5px 0;
-    transition: all 0.3s ease;
-    border-radius: 3px;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+  border-radius: 3px;
 }
 
 /* Navigation Indicator */
 .nav-indicator {
-    position: absolute;
-    bottom: -2px;
-    height: 3px;
-    border-radius: 3px;
-    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
-    transition: all 0.3s ease;
+  position: absolute;
+  bottom: -2px;
+  height: 3px;
+  border-radius: 3px;
+  background: linear-gradient(to right, #7E8EF1, #C0CEFF);
+  transition: all 0.3s ease;
 }
 
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
+  .menu-toggle {
+    display: block;
+  }
 
-    .nav-menu {
-        position: fixed;
-        left: -100%;
-        top: 70px;
-        flex-direction: column;
-        background-color: #fff;
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        padding: 20px 0;
-        height: calc(100vh - 70px);
-        overflow-y: auto;
-    }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    height: calc(100vh - 70px);
+    overflow-y: auto;
+  }
 
-    .nav-menu.active {
-        left: 0;
-    }
+  .nav-menu.active {
+    left: 0;
+  }
 
-    .nav-item {
-        margin: 15px 0;
-    }
+  .nav-item {
+    margin: 15px 0;
+  }
 
-    .nav-indicator {
-        display: none;
-    }
+  .nav-indicator {
+    display: none;
+  }
 }
 
 @keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(255, 95, 109, 0.7);
-    }
-    70% {
-        box-shadow: 0 0 0 10px rgba(255, 95, 109, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(255, 95, 109, 0);
-    }
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 95, 109, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 95, 109, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 95, 109, 0);
+  }
 }
 
 /***** -end- NAVIGATION *****/
