@@ -197,7 +197,7 @@ section > img {
 
 .nav-link {
     text-decoration: none;
-    color: #333;
+    color: #FFB6B9;
     font-weight: 500;
     font-size: 16px;
     padding: 10px 0;
@@ -213,7 +213,7 @@ section > img {
     left: 0;
     width: 0;
     height: 3px;
-    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
+    background: linear-gradient(to right, #7E8EF1, #FFB6B9);
     transition: width 0.3s ease;
     border-radius: 3px;
 }
@@ -254,7 +254,7 @@ section > img {
     bottom: -2px;
     height: 3px;
     border-radius: 3px;
-    background: linear-gradient(to right, #7E8EF1, #C0CEFF);
+    background: linear-gradient(to right, #7E8EF1, #FFB6B9);
     transition: all 0.3s ease;
 }
 
