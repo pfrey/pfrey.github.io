@@ -1,5 +1,13 @@
 #styleguide {}
 
+#alt-logo p {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+#alt-logo .pixel-font { font-size: 3rem; }
+#alt-logo .monospace-font { font-size: 5rem; line-height: 4rem; }
+
 .swatches {
   font-family: Arial, sans-serif;
   padding: 0 40px;
