@@ -28,12 +28,10 @@ footer {
 }
 /***** -end- GRID SETUP *****/
 
-#homepage {
+#homepage {}
+body {
   background-image: url("../images/grid-bg.jpg");
   background-size: 30%;
-  
-}
-body {
   font-family: 'Fira Code', Courier, monospace;
   background-color: #f7f7f7;
   padding: 1em 0;
